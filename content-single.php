@@ -26,7 +26,7 @@
 		
 		<?php get_sidebar( 'above-content' ); ?>
 		
-		<div class="entry-content">
+		<div class="entry-content" itemtype="http://data-vocabulary.org/Recipe">
 			<?php the_content(); ?>
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'tiga' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
